@@ -1,9 +1,7 @@
- public class WindowsCheckbox implements Checkbox {
+public class WindowsCheckbox implements Checkbox {
 
-        @Override
-        public void paint() {
-            System.out.println("You have created WindowsCheckbox.");
-        }
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsCheckbox.");
     }
-
-
+}
